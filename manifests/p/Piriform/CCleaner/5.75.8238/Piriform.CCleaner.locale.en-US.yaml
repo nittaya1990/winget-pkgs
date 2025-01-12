@@ -1,0 +1,16 @@
+PackageIdentifier: Piriform.CCleaner
+PackageVersion: 5.75.8238
+PackageLocale: en-US
+Publisher: Piriform Software Ltd
+Author: Piriform Software Ltd
+PackageName: CCleaner
+PackageUrl: https://www.ccleaner.com/
+License: Freeware - Copyright © 2005-2020 Piriform Software Ltd
+LicenseUrl: https://www.ccleaner.com/legal/end-user-license-agreement
+ShortDescription: CCleaner is a utility used to clean potentially unwanted files and invalid Windows Registry entries from a computer.
+Moniker: ccleaner-free
+Tags:
+- cleanup
+- registry
+ManifestType: defaultLocale
+ManifestVersion: 1.1.0

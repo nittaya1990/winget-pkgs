@@ -1,0 +1,30 @@
+# Created using wingetcreate 1.6.5.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: nimblenote.nimblenote
+PackageVersion: 3.2.2
+PackageLocale: en-US
+Publisher: leaves under foot ltd
+PublisherUrl: https://nimblenote.app
+PublisherSupportUrl: https://nimblenote.app/support
+PrivacyUrl: https://nimblenote.app/privacy
+Author: leaves under foot ltd
+PackageName: nimblenote
+PackageUrl: https://nimblenote.app
+License: Copyright © 2020 leaves under foot ltd
+Copyright: Copyright © 2020 leaves under foot ltd
+ShortDescription: Simple keyboard-driven note taking application for macOS, Linux and Windows.
+Description: nimblenote is a simple keyboard-driven note taking application. Search, create, edit and delete notes all without the mouse.
+Tags:
+- app
+- application
+- electron
+- linux
+- macos
+- notes
+- react
+- utilities
+- windows
+ReleaseNotesUrl: https://github.com/nimblenote/nimblenote/releases/tag/v3.2.2
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

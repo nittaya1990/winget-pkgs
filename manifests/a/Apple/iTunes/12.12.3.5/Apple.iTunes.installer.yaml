@@ -1,5 +1,5 @@
-# Created with YamlCreate.ps1 v2.1.0 $debug=QUSU.7-2-1
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
 
 PackageIdentifier: Apple.iTunes
 PackageVersion: 12.12.3.5
@@ -23,7 +23,6 @@ Installers:
   AppsAndFeaturesEntries:
   - Publisher: Apple Inc.
     DisplayName: iTunes
-    DisplayVersion: 12.12.3.5
     InstallerType: msi
     ProductCode: '{781FFA26-A8FF-47B7-9BFB-5F4FB3A72315}'
 - Architecture: x86
@@ -32,7 +31,6 @@ Installers:
   AppsAndFeaturesEntries:
   - Publisher: Apple Inc.
     DisplayName: iTunes
-    DisplayVersion: 12.12.3.5
     InstallerType: msi
 ManifestType: installer
-ManifestVersion: 1.1.0
+ManifestVersion: 1.9.0

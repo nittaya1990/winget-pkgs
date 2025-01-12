@@ -1,4 +1,4 @@
-# Created with YamlCreate.ps1 v2.1.0 $debug=QUSU.7-2-1
+# Created with YamlCreate.ps1 v2.1.0 $debug=AUSU.5-1-19041-1320
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.1.0.schema.json
 
 PackageIdentifier: moshfeu.y2mp3
@@ -27,7 +27,7 @@ Tags:
 - webpack
 - youtube
 # Agreements: 
-ReleaseNotes: |
+ReleaseNotes: |-
   What's Changed
   • Bump path-parse from 1.0.6 to 1.0.7 by @dependabot in #85
   • Bump tmpl from 1.0.4 to 1.0.5 by @dependabot in #86
