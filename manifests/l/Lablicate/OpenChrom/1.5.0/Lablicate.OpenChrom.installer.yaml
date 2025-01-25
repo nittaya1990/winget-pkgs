@@ -1,0 +1,29 @@
+PackageIdentifier: Lablicate.OpenChrom
+PackageVersion: 1.5.0
+InstallerType: nullsoft
+InstallerLocale: en-US
+Installers:
+- InstallerUrl: https://products.lablicate.com/openchrom/1.5.0/OpenChrom_1.5.0_setup_x64.exe
+  Architecture: x64
+  InstallerSha256: ba4546a9931d797265e07150539a094a02b20c042d14655656b43f24b4649550
+ManifestType: installer
+ManifestVersion: 1.6.0
+UpgradeBehavior: uninstallPrevious
+FileExtensions:
+- ch
+- dat
+- raw
+- gcd
+- run
+- ms
+- icp
+- cgm
+- db
+- qgd
+- spc
+- sms
+- wiff
+- dfm
+- prm
+- mfg
+- mfl
