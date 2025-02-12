@@ -1,5 +1,5 @@
-# Created using wingetcreate 0.4.3.1
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
+# Created with YamlCreate.ps1 v2.2.0 using InputObject 🤖 $debug=QUSU.CRLF..7-2-7
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.2.0.schema.json
 
 PackageIdentifier: purocean.YankNote
 PackageVersion: 2.9.1
@@ -11,10 +11,10 @@ Scope: user
 InstallModes:
 - silent
 UpgradeBehavior: install
+ReleaseDate: 2021-06-02
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/purocean/yn/releases/download/v2.9.1/Yank-Note-win-2.9.1.exe
   InstallerSha256: 0B50324275F6F528B97E9D6185CD64B5BD5C72CFD202CC188B67702F3009722C
 ManifestType: installer
-ManifestVersion: 1.1.0
-
+ManifestVersion: 1.2.0
