@@ -1,5 +1,5 @@
-# Created with YamlCreate.ps1 v2.0.4 $debug=QUSU.7-2-1
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
 
 PackageIdentifier: OpenWhisperSystems.Signal
 PackageVersion: 5.28.0
@@ -7,14 +7,21 @@ Platform:
 - Windows.Desktop
 MinimumOSVersion: 7.0.0.0
 InstallerType: nullsoft
-Scope: user
 InstallModes:
 - silent
 UpgradeBehavior: install
-Release Date: 2022-01-12
 Installers:
-- Architecture: neutral
+- Architecture: x64
+  Scope: user
   InstallerUrl: https://updates.signal.org/desktop/signal-desktop-win-5.28.0.exe
-  InstallerSha256: 0ec0098bd1c284076e08e1c561ef4fb31841ff035a44ccb092a47b5f950b1fff
+  InstallerSha256: 0EC0098BD1C284076E08E1C561EF4FB31841FF035A44CCB092A47B5F950B1FFF
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://updates.signal.org/desktop/signal-desktop-win-5.28.0.exe
+  InstallerSha256: 0EC0098BD1C284076E08E1C561EF4FB31841FF035A44CCB092A47B5F950B1FFF
+  InstallerSwitches:
+    Custom: /ALLUSERS
 ManifestType: installer
-ManifestVersion: 1.1.0
+ManifestVersion: 1.9.0
